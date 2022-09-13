@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(141, 62, 19,.2) ;
+}
+h1 , h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+background: linear-gradient(to left,rgb(183, 116, 80),rgb(247, 212, 189),rgb(183, 116, 80)) ;
+}
+.navbar .navbar-brand .s1 , .s2{
+    color: rgb(141, 62, 19);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.row{
+    margin: 0;
+}
+
+.navbar .collapse .navbar-nav .nav-item{
+padding: 0px 15px;
+}
+.navbar .collapse .navbar-nav .nav-item:hover{
+background-color: white;
+border-radius: 20px;
+}
+.carousel .carousel-inner .carousel-item img{
+    height: 100vh;
+    width: 100%;
+}
+.home{
+    padding-top: 50px;
+    height:90vh;
+}
+
+.head h1{
+    margin: auto;
+    width:50%;
+    text-align: center;
+    border-radius:100px ;
+    color: rgb(255, 255, 255);
+    background-color:rgb(141, 62, 19,0.5);
+    border-color: rgb(141, 62, 19,0.5);
+    margin-top:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+.home .about_space {
+    margin-top: 80px;
+    padding-left: 250px;
+
+} 
+.home .about_space .row{
+margin: 0;
+} 
+.home .about_space .row .card {
+    font-size: large;
+    border: 0;
+    color: rgb(78, 47, 26);
+    background-color:rgba(240, 238, 236, 0.001) ;
+}
+.home .about_space .row .card img{
+    border-radius: 100%;
+    transition: all 1s;
+}
+.home .about_space .row .card .card-body{
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 50px;
+} 
+.content{
+    height:850px;
+}
+.content .about_space .row  {
+justify-content: space-around;
+padding: 0px 150px;
+margin: 0;
+}
+.content .about_space .row  .carousel .carousel-inner .carousel-item {
+height: 300px;
+}
+.content .about_space .row  .card .card-body {
+    color: rgb(141, 62, 19);
+}
+.content .about_space{
+margin-top: 50px;
+}
+.content .about_space .row  .card .card-body .price{
+    color: rgb(141, 62, 19);
+    font-weight: bold;
+}
+.content .about_space .row  .card .card-body i{
+color: rgba(141, 62, 19, 0.478);
+}
+.content .about_space .row  .card .card-body .btn {
+background-color: rgb(141, 62, 19); 
+border-radius: 100px;
+}
+.content1{
+height: 800px;
+padding-top: 80px;
+background-image: url(../imgs/background.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.content1 .about_space{
+    padding-left: 190px;
+    color: rgb(78, 47, 26);
+    margin-top: 80px;
+}
+.content1 .about_space .row{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: center;
+    margin: 0;
+}
+.content1 .about_space .row .card{
+    border-radius:20px;
+    margin-bottom: 30px;
+}
+.content1 .about_space .row .row .box{
+font-size: 15px; 
+padding-top: 30px;
+transition: all .5s;
+}
+.content1 .about_space .row .row .box:hover{
+padding-top: 50px;
+}
+.content1 .about_space .row .row .box:hover i{
+transform: rotate(360deg);
+color: rgb(141, 62, 19);
+}
+.content1 .about_space .row .row .box i{
+font-size: 20px;
+color:rgb(141, 62, 19);
+padding: 10px;
+transition: all 1s;
+}
+.content1 .about_space .row .row .box h1{
+font-size: 20px; 
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.content1 .about_space .row .card a i{
+color: rgb(141, 62, 19);
+font-size: 30px;
+padding: 10px;
+}
+.content2{
+    height: 200vh;
+}
+.content2 .head{
+    margin-bottom: 30px;
+}
+.content2 .nav{
+    background-color: rgba(120, 89, 72, 0.66);
+    border-radius: 0px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+.content2 .tab-content .tab-pane .row{
+    margin: 50px 300px;
+}
+.content2 .tab-content .tab-pane .row img{
+    padding: 10px;
+}
+.footer{
+    height: 50vh;
+    background-color:rgb(141, 62, 19);
+}
+.footer .about_space{
+    background-color:rgb(141, 62, 19);
+  
+}
+.footer .about_space .row{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    color: rgba(255, 255, 255,0.5);
+}
+.footer  .about_space #row {
+    padding: 20px;
+    border-bottom: 0px ;
+    justify-content: space-between;
+}
+.footer .about_space #row i{
+  font-size: 25px;
+  padding: 5px;
+  color: #ddd;
+}
+.footer .about_space #row .p a{
+  color: rgba(255, 255, 255,0.5);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.footer .about_space #row .p a:hover{
+  color:rgb(36, 87, 106);
+}
+.footer .about_space .row .card-body{
+    color: rgba(255, 255, 255,0.5);
+}
+.footer .about_space .row .card-body ul a{
+    color: rgba(255, 255, 255,0.5);
+}
+.footer .about_space .row .card-body .card-title{
+    color: white;
+}
+ul{
+    list-style-type: none;
+    }
+@media(max-width:750px) {
+
+    .head .div{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .head h1{
+        margin-top:50px;
+    } 
+    .carousel .carousel-inner .carousel-item img{
+        height: 50vh;
+    }
+    .home{
+        margin-bottom: -180px;
+
+    }
+    .home .about_space .row .card .card-body{
+        margin-left: 0px;
+        margin-top: 20px;
+    } 
+    .home .about_space {
+        padding:5px;
+    } 
+    .content .about_space .row  {
+        justify-content: space-around;
+        padding: 0px 0px;
+    }
+    .content1 .about_space .row{
+        padding-left: 5px;
+    }
+    .content1{
+        margin-top: 800px;
+        height:2500px;
+    }
+    .content .about_space .row  .carousel .carousel-inner .carousel-item {
+        height: 200px;
+        }
+    .content2{
+        height: 950vh;
+        margin: 0;
+    }
+    .content2 .nav{
+        width: 90%;
+    }
+    .content2 .tab-content .tab-pane .row{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+@media(max-width:960px) {
+    .head .div{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .head h1{
+        margin-top:30px;
+    } 
+    .home{
+        height: 1300px;
+    }
+    .home .about_space .row .card .card-body{
+        margin-left: 20px;
+    } 
+    .home .about_space {
+        padding:0px;
+    } 
+    .content{
+        height:1000px;
+    }
+    .content .about_space .row  {
+        padding: 0px;
+    }
+    .content1 .about_space{
+        height: 1000px;
+    }
+        .content1{
+            height:1800px;
+        }
+        .card {
+            padding: 0;
+            margin: 0;
+        }
+        .row{
+            padding: 0;
+            margin: 0;
+        }
+        .content1 .about_space {
+            width: 100%;
+            padding: 0;
+        }
+        .content1 .about_space .row{
+            width: 100%;
+        }
+        .content2{
+            height:6200px;
+        }
+        .content2 .nav{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .content2 .tab-content .tab-pane .row{
+            width: 70%;
+            margin: auto;
+        }
+        .content2 .tab-content .tab-pane .row img{
+            height: 500px;
+        }
+        .footer{
+            height: 110vh;
+        }
+
+}
